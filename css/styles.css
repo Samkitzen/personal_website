@@ -10,6 +10,9 @@ body{
     padding:0 18px;
     color:#fff;
 }
+.navbar-brand{
+    padding:0 18px;
+}
 .name{
 font-size: larger;
 }
