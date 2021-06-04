@@ -1,10 +1,19 @@
 
 body{
     text-align: center;
+    color: #fff;
 }
+footer{
 
+    background-color:#232323;
+    padding-top: 5% ;
+
+}
+.container-fluid{
+    padding: 1rem 3rem;
+}
 .navbar{
-    background-color: #020a0d;
+    background-color: black;
 }
 .nav-item{
     padding:0 18px;
@@ -16,18 +25,25 @@ body{
 .name{
 font-size: larger;
 }
-
+.title-name{
+font-family: 'Sacramento', cursive;
+margin-bottom: 5%;
+}
 .profile{
     padding:10% 20%;
 }
 .first{
-    background-image: url("https://images.unsplash.com/photo-1616004675303-ae5657c14af7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-color: black;
     color:#fff;
 }
+/* Social Links */
 
-footer{
-    text-align: center;
-    background-color:#020a0d;
-    padding-top: 5% ;
+#social-links{
+    padding: 7% 15%;
+}
 
+
+.footer-icon{
+    margin:0  2rem 3rem; 
+    color:black
 }
